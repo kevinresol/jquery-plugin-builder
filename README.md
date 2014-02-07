@@ -44,7 +44,7 @@ class MyPlugin implements IPlugin
 ```
 Note that the ```IPlugin``` interface is empty, meaning that no functions or properties have to be implemented.
 
-## Step 2. Register the Plugin Function as a jQuery Plugin
+## Step 2. Register as a jQuery Plugin
 
 Call ```JQueryPlugin.registerPlugin()``` to register the function as a plugin of jQuery. 
 You may also call ```JQueryPlugin.registerUtility``` to register a [utility function][jquery-utility] for jQuery.
