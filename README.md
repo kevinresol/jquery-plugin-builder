@@ -84,6 +84,6 @@ Note that your haxe-generated javascript program must be run after importing the
 </head>
 ```
 
-[jquery-this]: http://www.google.com/
+[jquery-this]: https://learn.jquery.com/javascript-101/this-keyword/
 [jquery-utility]: https://learn.jquery.com/using-jquery-core/utility-methods/
 [jquery-plugin]: http://learn.jquery.com/plugins/basic-plugin-creation/
