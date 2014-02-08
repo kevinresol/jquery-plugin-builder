@@ -78,7 +78,8 @@ Note that your haxe-generated javascript program must be run after importing the
 	<script>	
 	$(function()
 	{		
-		$('.test').plugin("param");
+		$('.test').plugin();
+		$('.test').anotherPlugin("param");
 	})	
 	</script>	
 </head>
