@@ -1,7 +1,7 @@
 jQuery Plugin Builder
 =====================
 
-Write jQuery plugins in Haxe. Basic knowledge of [writing jQuery plugins][jquery-plugin] in pure javascript is needed. 
+Write jQuery plugins in Haxe. Basic knowledge of [writing jQuery plugins][jquery-plugin] in pure javascript would be helpful. 
 
 ## Step 1. Write the Plugin Function
 
@@ -27,13 +27,19 @@ class MyPlugin implements IPlugin
 	public static function pluginWithoutParameter():JQuery
 	{
 		// "_this" refers to "this" in the javascript context
-		_this.html("pluginWithoutParameter");		
+		_this.html("pluginWithoutParameter");	
+		
+		//for chaining
+		return _this;
 	}
 	
 	public static function pluginWithParameter(param:String):JQuery
 	{
 		// "_this" refers to "this" in the javascript context
-		_this.html(param);		
+		_this.html(param);
+		
+		//for chaining
+		return _this;		
 	}
 	
 	public static function someUtilityFunction():Void
