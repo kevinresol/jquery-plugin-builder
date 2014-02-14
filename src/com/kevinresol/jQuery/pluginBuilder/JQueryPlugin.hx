@@ -1,4 +1,4 @@
-package ;
+package com.kevinresol.jQuery.pluginBuilder;
 
 import js.Browser;
 

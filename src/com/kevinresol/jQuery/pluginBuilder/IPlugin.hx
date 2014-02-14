@@ -1,4 +1,4 @@
-package ;
+package com.kevinresol.jQuery.pluginBuilder;
 import haxe.macro.Context;
 import haxe.macro.Expr.Field;
 import haxe.macro.Expr.Function;
@@ -10,7 +10,7 @@ import haxe.macro.Expr.Function;
  * @author Kevin
  */
 #if !macro
-@:autoBuild(PluginMacros.build())
+@:autoBuild(com.kevinresol.jQuery.pluginBuilder.PluginMacros.build())
 #end
 interface IPlugin { }
 
