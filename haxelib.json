@@ -1,0 +1,10 @@
+{
+	"name": "jquery-plugin-builder",
+	"url" : "https://github.com/kevinresol/jquery-plugin-builder/",
+	"license": "MIT",
+	"tags": ["js", "jquery","plugin"],
+	"description": "Write jQuery plugins in Haxe",
+	"version": "1.0.0",
+	"releasenote": "Write jQuery plugins in Haxe",
+	"contributors": ["kevinresol"]
+}
